@@ -1,15 +1,4 @@
 /**********************************
-FONTS
-***********************************/
-
-@font-face {
-    font-family: "Shrikhand";
-    src: url('../fonts/"Shrikhand-webfont".eot');
-    src: url('../fonts/"Shrikhand-webfont".ttf') format("truetype");
-
-}
-
-/**********************************
 HEADING
 ***********************************/
 
@@ -25,7 +14,7 @@ header {
 }
 
 h1 {
-  font-family: "Shrikhand", cursive;
+  font-family: "Orbitron-Regular", serif;
   margin: 15px 0;
   font-size: 50px;
   font-weight: normal;
@@ -34,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Shrikhand", cursive;
+  font-family: "Orbitron-Regular", serif;
   font-size: 1em;
   margin: -5px 0 0;
   font-weight: normal;
@@ -46,10 +35,10 @@ GENERAL
 ***********************************/
 
 body {
-  font-family: "Shrikhand", cursive;
+  font-family: "Orbitron-Regular", serif;
 }
 
-#wrapper {
+.wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
@@ -62,6 +51,7 @@ a {
 
 img {
   max-width: 100%;
+
 }
 
 /**********************************
@@ -69,14 +59,14 @@ BODY
 ***********************************/
 
 h3 {
-  font-family :"Work Sans", sans-serif;
+  font-family :"Orbitron-Regular", serif;
   margin: 0 0 1em 0;
-  text-shadow: -1px 1px 1px #000;
+  text-shadow: -0.5px 1px 0.5px #000;
 }
 
 p {
-  font-family :"Work Sans", sans-serif;
-  text-shadow: -1px 1px 1px #000;
+  font-family :"WorkSans-Thin", sans-serif;
+  text-shadow: -0.25px 1px 1px #000;
 }
 
 
@@ -88,7 +78,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
-  text-shadow: -2px 2px 1px #000;
+  text-shadow: -1px 2px 1px #000;
 
 }
 
@@ -103,7 +93,7 @@ nav li {
 }
 
 section li a {
-  font-family :"Work Sans", sans-serif;
+  font-family :"WorkSans-Thin", sans-serif;
   text-shadow: -1px 1px 1px #000;
 }
 
@@ -154,14 +144,16 @@ PAGE: PORTFOLIO
   width: 45%;
   margin: 2.5%;
   background-color: #D8D8D8;
+  box-shadow: inset 0 0 25px 5px rgba(0, 0, 0, .2);
 }
 
 #gallery li a p {
-  font-family :"Work Sans", sans-serif;
+  font-family :"Work-Sans", sans-serif;
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #ff8c00;
+  color: #008c06;
+  box-shadow: inset 0 0 25px 5px rgba(0, 0, 0, .2);
 }
 
 /**********************************
@@ -195,15 +187,15 @@ PAGE: CONTACT
   margin: 0 0 10px;
 }
 
-.contact-info li .phone a {
+.phone a {
   background-image: url('../img/phone.png');
 }
 
-.contact-info li .mail a {
+.mail a {
   background-image: url('../img/mail.png');
 }
 
-.contact-info li .twitter a {
+.twitter a {
   background-image: url('../img/twitter.png');
 }
 
@@ -215,23 +207,23 @@ COLORS
 
 /* site body */
 body {
-  background: linear-gradient(#909090, #F8F8F8);
+  background: linear-gradient(#79b572, #8e8e8e) fixed;
   color: #fff;
+
+  /*background: url(../img/greenhex.svg);*/
 }
 
 
-/* red header */
+/* Green header */
 header {
-  background: linear-gradient(#b30000, #ff6600);
-}
-
-header {
-border-color: #ff8c00;
+  background: linear-gradient(#008c06, #ffe500);
+  border-color: #027906;
+  box-shadow: inset 0 0 25px 5px rgba(0, 0, 0, .4);
 }
 
 /* nav background on mobile */
 nav {
-  background: #ff8c00;
+  background: #027906;
 }
 
 /* logo text */
@@ -240,11 +232,11 @@ h1, h2 {
 }
 
 h3{
-  color: #ff8c00;
+  color: #008c06;
 }
 
 h4 {
-  color: #ff8c00;
+  color: #008c06;
 }
 
 /* links */

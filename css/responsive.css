@@ -1,8 +1,12 @@
+
 @media screen and (min-width: 480px) {
 
   /**********************************
   TWO COLUMN LAYOUT
   ***********************************/
+nav {
+  background: #027906;
+}
 
   #primary {
     font-family: "Work-Sans", sans-serif;
@@ -52,12 +56,12 @@
     font-family: "Work-Sans", sans-serif;
     }
 
-    #secondary {
+  #secondary {
       font-family: "Work-Sans", sans-serif;
     }
 
   header {
-    border-bottom: 10px solid #ff8c00;
+    border-bottom: 10px solid #027906;
     margin-bottom: 60px;
   }
 
