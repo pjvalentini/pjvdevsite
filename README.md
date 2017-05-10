@@ -9,3 +9,5 @@ CSS - 3 Pages: main.css, normalize.css, responsive.css
 Working Links to twitter - Twitter, Facebook
 
 Responsive features are working.
+
+Version 3.0 added on 5/10/17 -- Still in Development.
